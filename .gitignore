@@ -1,0 +1,29 @@
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+
+# Local virtualenvs
+.venv/
+env/
+venv/
+
+# OS / Editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Python test artifacts / pytest cache
+.pytest_cache/
+
+# Docker build cache / local image files
+docker-compose*.yaml
+*.tar
+
+# Model weights and large artifacts (do NOT commit .pt files)
+*.pt
+model/
+weights/
+checkpoints/
+
+# Local secrets / environment files
+.env
