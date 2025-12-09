@@ -27,3 +27,6 @@ checkpoints/
 
 # Local secrets / environment files
 .env
+
+# other
+docs/
