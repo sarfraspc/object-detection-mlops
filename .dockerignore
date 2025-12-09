@@ -1,6 +1,33 @@
-__pycache__
+# Python cache
+__pycache__/
 *.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Git
+.git and .github folder (already ignored by Git)
 .git
 .github
+
+# Tests folder
 tests/
+
+# Large model files 
+*.pt
 model/
+weights/
+
+# Local env
+.env
+.venv/
+venv/
+
+# other
+docs/
