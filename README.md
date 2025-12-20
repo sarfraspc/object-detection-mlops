@@ -160,7 +160,7 @@ Simply visit the live demo:
 Pull and run the pre-built image from Docker Hub:
 
 ```bash
-docker run -p 8080:8080 sarfras7/yolo-app
+docker run -p 8080:8080 sarfras7/yolo-app:v1
 ```
 
 Then open: **http://localhost:8080**
