@@ -3,7 +3,6 @@ import logging
 import os
 import time
 from contextlib import asynccontextmanager
-from typing import List
 
 # 1. Import FileResponse to serve HTML
 from fastapi import FastAPI, File, HTTPException, UploadFile
@@ -42,10 +41,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# --- NEW: SERVE UI AT ROOT ---
+# SERVE UI AT ROOT 
 @app.get("/")
 def read_root():
-    # This serves your HTML file when you open localhost:8000
+    # This serves HTML file when open localhost:8000
     return FileResponse("frontend/index.html")
 
 # --- MOVED: HEALTH CHECK ---
@@ -55,7 +54,6 @@ def health():
 
 @app.post("/predict")
 async def predict(file: UploadFile = File(...)):
-    # ... (Your existing predict logic stays exactly the same) ...
     if not file.content_type or not file.content_type.startswith("image/"):
         raise HTTPException(400, detail="Invalid file: must be an image")
     
