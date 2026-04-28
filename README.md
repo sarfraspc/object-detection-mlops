@@ -1,4 +1,4 @@
-# YOLOv8-Nano Object Detection – MLOps Assignment
+# YOLOv8-Nano Object Detection – MLOps Pipeline
 
 [![CI Status](https://github.com/sarfraspc/object-detection-mlops/workflows/CI/badge.svg)](https://github.com/sarfraspc/object-detection-mlops/actions)
 [![Docker Pulls](https://img.shields.io/docker/pulls/sarfras7/yolo-app?label=Docker%20Pulls)](https://hub.docker.com/r/sarfras7/yolo-app)
@@ -35,7 +35,7 @@ Works seamlessly both locally and in the cloud with zero configuration required.
 
 ---
 
-## Assignment Requirements
+## Core Implementation Steps
 
 ### Step 1: Version Control
 
@@ -288,7 +288,7 @@ This project demonstrates a complete MLOps pipeline with:
 **Production Quality** – Monitoring, logging, and error handling  
 **User Experience** – Beautiful, responsive web interface  
 
-**All assignment requirements fully satisfied and exceeded.**
+**Production-ready MLOps pipeline successfully implemented.**
 
 ---
 
